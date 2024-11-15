@@ -45,7 +45,6 @@ const App = () => {
 
       <header className="header">
         <button onClick={() => setView('products')} className="nav-button">Browse Products</button>
-        
       </header>
 
       {view === 'products' && (
